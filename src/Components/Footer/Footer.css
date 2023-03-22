@@ -1,0 +1,19 @@
+.footer_container {
+    padding: 4rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 142.6%;
+    row-gap: 2rem;
+}
+
+@media (max-width: 769px) {
+    .footer_container {
+        font-size: 16px;
+    }
+}

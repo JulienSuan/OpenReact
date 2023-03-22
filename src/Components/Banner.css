@@ -1,0 +1,31 @@
+.banner_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 142.6%;
+    /* or 68px */
+    text-align: center;
+
+    display: flex;
+}
+
+@media (max-width: 789px) {
+    .banner_title {
+        font-size: 24px;
+    }
+    .cont-cardd {
+        background-color: transparent;
+        width: 100%;
+        padding: 1.5rem;
+    }
+    .cont-card {
+        width: 100%!important;
+    }
+    .banner {
+        margin: 0rem auto;
+    }
+    .cont_all_local {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,43 @@
+.big_tag_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    width: 75%;
+    margin: 1rem 0;
+    border-radius: 5px;
+
+}
+.tag_container {
+    color: whitesmoke;
+    border-radius: 5px;
+    background: #FF6060;
+    width: 100%;
+    padding: 1rem 1rem;
+    position: relative;
+    display: flex;
+    cursor: pointer;
+    user-select: none;
+}
+.arroww {
+    position: absolute;
+    right: 1rem;
+    transition: .15s;
+
+}
+.active_arroww {
+    transition: .15s;
+    position: absolute;
+    right: 1rem;
+    rotate: 180deg;
+}
+.tag_desc {
+    background: #F7F7F7;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 142.6%;
+    color: #FF6060;
+    padding: 2rem 1rem;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
