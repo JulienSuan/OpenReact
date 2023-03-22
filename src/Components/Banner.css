@@ -19,6 +19,9 @@
         width: 100%;
         padding: 1.5rem;
     }
+    .tag_desc {
+        font-size: 12px!important;
+    }
     .cont-card {
         width: 100%!important;
     }
@@ -27,5 +30,8 @@
     }
     .cont_all_local {
         flex-direction: column;
+    }
+    .tag_container > p {
+        font-size: 13px;
     }
 }
