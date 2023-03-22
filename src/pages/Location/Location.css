@@ -246,6 +246,9 @@
 
 
 @media (max-width: 768px) {
+    .big_tag_container {
+        width: 90%!important;
+    }
     .stars > img {
         max-width: 15px;
     }

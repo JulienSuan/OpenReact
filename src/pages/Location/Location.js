@@ -107,7 +107,7 @@ export default function Location() {
           )}
 
           {<img className="imagecarou" src={carou[index]} />}
-          <p className="counteer"> {index + 1} / {carou.length}</p>
+          <p className="counteer"> {carou.length > 1 && index + 1 + "/" + carou.length}</p>
         </div>
         <div className="cont_all_local">
           <div className="locaDesc">
