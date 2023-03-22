@@ -249,8 +249,17 @@
     .big_tag_container {
         width: 90%!important;
     }
+    .tagtag {
+        font-size: 10px;
+    }
     .stars > img {
         max-width: 15px;
+    }
+    .sublocal2_cont > p {
+        font-size: 12px;
+    }
+    .infooa > p, .infoo > p {
+        font-size: 13px;
     }
     .contend {
         flex-direction: column;
