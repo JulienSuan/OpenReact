@@ -100,8 +100,8 @@ export default function Location() {
               <img src={arrow}  alt="right arrow" className={active2 ? "arrowactive" : "arrow"} />
             </div>
             <div className={!active2 ? "infodesca2" : "infodesc2"}>
-              {equipments.map((res) => {
-                return <p>{res}</p>;
+              {equipments.map((res, index) => {
+                return <p key={index}>{res}</p>;
               })}
             </div>
           </div>
