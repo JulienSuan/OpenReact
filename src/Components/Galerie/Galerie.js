@@ -8,7 +8,7 @@ export default function Galerie() {
 
     const map = data.map(elem => {
         return (
-          <Card key={elem.id} id={elem.id} cover={elem.cover} title={elem.title} ></Card>
+          <Card key={elem.id} id={elem.id} alt={elem.title} cover={elem.cover} title={elem.title} ></Card>
         )
       })
   return (

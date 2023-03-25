@@ -1,8 +1,6 @@
 import './App.css';
 import Banner from './Components/Banner';
-import Header from './Components/Header/Header';
 import bg from "./ressources/IMG.png"
-import { useEffect } from 'react';
 import Galerie from './Components/Galerie/Galerie';
 
 
